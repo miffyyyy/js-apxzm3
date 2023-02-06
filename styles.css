@@ -1,0 +1,45 @@
+#grid {
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+
+.card {
+  display: flex;
+  border: 1px solid rgb(49, 49, 155);
+  border-radius: 1em;
+  padding: 1em;
+  margin: 0.5em;
+  width: 29em;
+  max-width: 100%;
+  position: relative;
+}
+
+.hiddenitem {
+  display: none;
+}
+
+#reload_btn {
+  bottom: 0;
+  position: fixed;
+  right: 0em;
+  width: 5em;
+  height: 5em;
+  background: grey;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.card img {
+  height: 5em;
+  border-right: 0.4em solid rgb(0, 0, 223);
+  border-bottom: 0.4em solid rgb(0, 0, 223);
+  border-radius: 0.4em;
+  margin-right: 1em;
+}
+
+.card .content p {
+  margin: 1px;
+}
