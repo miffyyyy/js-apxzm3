@@ -1,4 +1,4 @@
 import { Controller } from './card_component/controller.js';
-import './styles.css';
+// import './styles.css';
 
 Controller.init();
